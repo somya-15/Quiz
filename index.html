@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>JS Quiz Format 1</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+      <style>
+        body {
+          font-family: "Sofia", sans-serif;
+        }
+      </style>
+   </head>
+   <body>
+      <div class="container">
+         <div class="score">
+            <span id="user-score">0</span>
+            <span id="total-score">/ 3</span>
+         </div>
+         <div class="content" id="question-area">
+            <div id="question-text"></div>
+            <div class="options">
+               <button class="btn btn-option" id="True">True</button>
+               <button class="btn btn-option" id="False">False</button>
+            </div>
+         </div>
+         <div class="controls">
+            <button class="btn btn-restart"
+               id="restart">Restart</button>
+            <button class="btn btn-prev" id="prev">Prev</button>
+            <button class="btn btn-next" id="next">Next</button>
+            <button class="btn btn-submit" id="submit">Submit</button>
+         </div>
+      </div>
+      <script src="script.js"></script>
+   </body>
+</html>
